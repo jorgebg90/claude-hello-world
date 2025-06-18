@@ -89,4 +89,8 @@ If you want, I can update all Java sources and configuration to use this new pac
 ---
 
 ## License
-This project is for educational and demonstration purposes. 
+This project is for educational and demonstration purposes.
+
+---
+
+_Última edición: subida de prueba a develop._ 
