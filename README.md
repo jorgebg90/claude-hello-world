@@ -1,4 +1,6 @@
-# Hello Claude
+# hello-claude
+
+**This project is a quick demo created to test the capabilities of Cursor, with zero prior experience using the tool.**
 
 A full-stack JVM monitoring and visualization solution for modern Java applications.
 
