@@ -1,4 +1,6 @@
-# hello-claude
+# Claude Hello World
+
+![Claude Hello World](_img/image.png)
 
 **This project is a quick demo created to test the capabilities of Cursor, with zero prior experience using the tool.**
 
