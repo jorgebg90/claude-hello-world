@@ -61,25 +61,6 @@ npm start
 
 ---
 
-## Java Package Naming (for Architects)
-
-**Current package:**
-```
-com.ejemplo.helloclaude
-```
-
-**Recommended for professional/architect use:**
-- If you own a domain: `com.yourdomain.hello_claude`
-- If not, use your GitHub or dev identity:
-  - `dev.jorgebg.hello_claude`
-  - `io.jorgebg.hello_claude`
-
-> _For this project, `dev.jorgebg.hello_claude` is a concise, professional choice._
-
-If you want, I can update all Java sources and configuration to use this new package name.
-
----
-
 ## Requirements
 - Java 21
 - Maven 3.6+
