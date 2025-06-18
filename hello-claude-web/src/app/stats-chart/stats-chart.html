@@ -1,0 +1,53 @@
+<div class="stats-container">
+  <h2>Hello Claude - Real-Time System Statistics</h2>
+  
+  <div class="charts-grid">
+    <!-- Heap Memory Chart -->
+    <div class="chart-card">
+      <h3>Heap Memory Usage</h3>
+      <div class="chart-container">
+        <canvas baseChart
+          [data]="heapChartData"
+          [options]="heapChartOptions"
+          [type]="'line'">
+        </canvas>
+      </div>
+    </div>
+
+    <!-- CPU Chart -->
+    <div class="chart-card">
+      <h3>CPU Usage</h3>
+      <div class="chart-container">
+        <canvas baseChart
+          [data]="cpuChartData"
+          [options]="cpuChartOptions"
+          [type]="'line'">
+        </canvas>
+      </div>
+    </div>
+
+    <!-- Threads Chart -->
+    <div class="chart-card">
+      <h3>System Threads</h3>
+      <div class="chart-container">
+        <canvas baseChart
+          [data]="threadsChartData"
+          [options]="threadsChartOptions"
+          [type]="'line'">
+        </canvas>
+      </div>
+    </div>
+
+    <!-- Non-Heap Memory Chart -->
+    <div class="chart-card">
+      <h3>Non-Heap Memory</h3>
+      <div class="chart-container">
+        <canvas baseChart
+          [data]="memoryChartData"
+          [options]="memoryChartOptions"
+          [type]="'line'">
+        </canvas>
+      </div>
+    </div>
+  </div>
+</div>
